@@ -318,10 +318,10 @@ section:nth-child(2n){
 }
 
 .skill-progress{
-    width: 7rem;
-    height: 1.4rem;
+    width: 8rem;
+    height: 1.8rem;
     background-color: lightgrey;
-    border-radius: 0.8rem;
+    border-radius: 1.8rem;
     border: 2px solid black;
     margin: 20px;
 }
@@ -541,7 +541,7 @@ section:nth-child(2n){
 
 
 /* Portfolio */
-#porfolio{
+#portfolio{
     display: relative;
 }
 
@@ -555,7 +555,7 @@ section:nth-child(2n){
 
 #container-portfolio .portfolio-image{
     /* border: 2px solid brown; */
-    margin: 10px 5px;
+    margin: 8px 3px;
     padding: 10px;
     border-radius: 23px;
     /* background-color: rgb(250, 232, 250); */
@@ -567,8 +567,9 @@ section:nth-child(2n){
 #container-portfolio .portfolio-image img{
     display: block;
     margin: auto;
-    height: 200px;
-    width: 200px;
+    height: 250px;
+    width: 320px;
+    border-radius: 20px;
 }
 
 .portfolio-image{
@@ -826,20 +827,20 @@ footer{
     font-weight: 600;
 }
 
+.mb-llblue{
+    background-color: #52D3D8;
+}
+
+.mb-lblue{
+    background-color: #3887BE;
+}
+
 .mb-blue{
-    background-color: var(--section-color-blue);
+    background-color: #38419D;
 }
 
-.mb-orange{
-    background-color: orange;
-}
-
-.mb-mehroon{
-    background-color: rgb(150, 103, 103);
-}
-
-.mb-green{
-    background-color: green;
+.mb-dblue{
+    background-color: #200E3A;
 }
 
 .btn{
@@ -884,6 +885,8 @@ footer{
     width: 70%;
     height: inherit;
 }
+
+
 
 
 /* for disabling arrows which comes in input numeric value in form */

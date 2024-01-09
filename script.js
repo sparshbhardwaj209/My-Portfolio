@@ -21,21 +21,24 @@ for (var i = 0; i < navMenuAnchorTags.length; i++) {
 
     // interval = setInterval(scrollVertically, 20, targetSection);
 
-    interval = setInterval(function(){
-        scrollVertically(targetSection);
-    }, 20);
+    // interval = setInterval(function(){
+    //     scrollVertically(targetSection);
+    // }, 20);
+    if(targetSection){
+      targetSection.scrollIntoView({behavior: "smooth"});
+    }
 
   });
 }
 
-function scrollVertically(targetSection) {
-  var targetSectionCoordinates = targetSection.getBoundingClientRect();
-  if (targetSectionCoordinates.top <= 0) {
-    clearInterval(interval);
-    return;
-  }
-  window.scrollBy(0, 50);
-}
+// function scrollVertically(targetSection) {
+//   var targetSectionCoordinates = targetSection.getBoundingClientRect();
+//   if (targetSectionCoordinates.top <= 0) {
+//     clearInterval(interval);
+//     return;
+//   }
+//   window.scrollBy(0, 40);
+// }
 
 
 // adding animation on the skills section
