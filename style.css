@@ -17,7 +17,7 @@ body{
  #border-header{
     height: 65vh;
     opacity: 0.9;
-    background-image: url("./resume_Resources/header-background.jpg");
+    background-image: url("./resume_Resources/banner.png");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -569,7 +569,7 @@ section:nth-child(2n){
     margin: auto;
     height: 250px;
     width: 320px;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 .portfolio-image{
